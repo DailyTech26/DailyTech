@@ -1,33 +1,39 @@
 {
-  "name": "dailytech-rewards-site",
+  "name": "dailytech",
   "version": "1.0.0",
   "private": true,
-  "description": "DailyTech: A survey-based rewards platform using React and Firebase",
+  "description": "Survey-based rewards platform built with React and Firebase",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "dailytech@1.0.0",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "keywords": [
+    "react",
+    "firebase",
+    "survey",
+    "rewards",
+    "dailytech"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
   "dependencies": {
-    "firebase": "^10.7.0",
+    "firebase": "^10.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.0",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1"
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.2",
+    "gh-pages": "^6.1.0"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
   }
 }
