@@ -1,0 +1,17 @@
+daily-tech/
+├── public/
+│   └── index.html
+├── src/
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── pages/
+│   │   ├── LoginPage.jsx
+│   │   ├── SignupPage.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── AdminPanel.jsx
+│   ├── firebase.js
+│   └── App.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── firebase.json (after Firebase setup)
