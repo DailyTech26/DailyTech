@@ -1,12 +1,36 @@
-
-  "name": "dailytech",
+{
+  "name": "dailyTech",
   "version": "1.0.0",
-  "description": "A Survey Based Website c",
+  "private": true,
+  "description": "Survey-based rewards platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
+  "dependencies": {
+    "firebase": "^10.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+ "repository": {
     "type": "git",
     "url": "git+https://github.com/DailyTech26/DailyTech.git"
   },
@@ -19,17 +43,3 @@
   "dependencies": {
     "pkg": "^5.8.1"
   },
-  "devDependencies": {},
-  "keywords": [
-    "A",
-    "survey",
-    "Based",
-    "Website",
-    "that",
-    "pays",
-    "you",
-    "for",
-    "completing",
-    "tasks"
-  ]
-}
