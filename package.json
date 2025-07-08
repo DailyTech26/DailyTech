@@ -1,9 +1,9 @@
 {
-  "name": "dailyTech",
+  "name": "dailytech-rewards-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Survey-based rewards platform",
-  "main": "index.js",
+  "description": "DailyTech: A survey-based rewards platform using React and Firebase",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,16 +30,4 @@
       "last 1 safari version"
     ]
   }
- "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DailyTech26/DailyTech.git"
-  },
-  "author": "Oyeniran Naheem",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DailyTech26/DailyTech/issues"
-  },
-  "homepage": "https://github.com/DailyTech26/DailyTech#readme",
-  "dependencies": {
-    "pkg": "^5.8.1"
-  },
+}
