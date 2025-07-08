@@ -5,7 +5,7 @@
   "description": "Survey-based reward platform built with React and Firebase",
   "scripts": {
     "start": "react-scripts start",
-    "build": "dailytech-survey-site@1.0.0 build",
+    "build": "dailytech@1.0.0",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
