@@ -1,12 +1,12 @@
 {
-  "name": "dailyTech",
+  "name": "dailytech-survey-site",
   "version": "1.0.0",
   "private": true,
   "description": "Survey-based reward platform built with React and Firebase",
   "scripts": {
     "start": "react-scripts start",
-    "build": "dailyTech@1.0.0 build",
-    "test": "react-scripts build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
