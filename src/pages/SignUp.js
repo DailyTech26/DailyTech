@@ -27,3 +27,12 @@ export default function SignUp() {
     </form>
   );
 }
+import { getFirestore, doc, setDoc } from "firebase/firestore";
+
+const db = getFirestore();
+
+await createUserWithEmailAndPassword(auth, email, password);
+await setDoc(doc(db, "users", auth.currentUser.uid), {
+  email: email,
+  createdAt: new Date()
+});
