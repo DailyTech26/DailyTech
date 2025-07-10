@@ -2,7 +2,7 @@
   "name": "dailytech",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://DailyTech26.github.io/dailytech",
+  "homepage": "https://dailytech26.github.io/dailytech",
 
   "scripts": {
     "start": "react-scripts start",
