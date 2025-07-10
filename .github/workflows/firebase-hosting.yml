@@ -3,31 +3,30 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main  # Change if your main branch is named differently
+      - main  
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: 🟢 Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Match your development Node version
+          node-version: '18'
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm install
 
-      - name: Build project
+      - name: 🏗️ Build project
         run: npm run build
 
-      - name: Deploy to Firebase Hosting
+      - name: 🚀 Deploy to Firebase Hosting
         uses: w9jds/firebase-action@v12.9.0
         with:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          
